@@ -29,12 +29,12 @@ Clone the repo by using the following:
 
 - git clone:
   
-  git@github.com:Darylcosm0/project-code-challenge-3.git
+    git@github.com:Darylcosm0/project-code-challenge-3.git
 
 Be patient as it creates a copy on your local machine for you.
 - Change directory to the repo folder: 
 
-  cd project-code-challenge-3
+    cd project-code-challenge-3
 
 (Optional) Open it in Visual Studio Code
 
@@ -48,12 +48,12 @@ Hurray! You are one step closer to being as intelligent as Einstein.
 To run the application, you can use the following steps to run the app.
 - Install json-server ​install.
 
-  json-server​
+    json-server​
 
 Then follow instructions here for live server to work well with json-server​
 - Run the following command to get server started: 
 
-  ​json-server --watch db.json
+    ​json-server --watch db.json
 
 - Right click on the index.html and navigate to Open With Live Server option, to open the application on your browser.
 
