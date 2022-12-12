@@ -1,0 +1,19 @@
+{
+  "name": "project-code-challenge-3",
+  "version": "1.0.0",
+  "description": "Implement a 'mini' web application using JavaScript",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darylcosm0/project-code-challenge-3.git"
+  },
+  "author": "Daryl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darylcosm0/project-code-challenge-3/issues"
+  },
+  "homepage": "https://github.com/Darylcosm0/project-code-challenge-3#readme"
+}
