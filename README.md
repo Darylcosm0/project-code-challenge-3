@@ -27,14 +27,17 @@ Open a terminal / command line interface on your computer
 
 Clone the repo by using the following:
 
-git clone:git@github.com:Darylcosm0/project-code-challenge-3.git
+git clone:
 
-Be patient as it creates a copy on your local machine for you.
+  git@github.com:Darylcosm0/project-code-challenge-3.git
+  
+  
+  Be patient as it creates a copy on your local machine for you.
 - Change directory to the repo folder
-
+  
   cd project-code-challenge-3
-
-(Optional) Open it in Visual Studio Code
+  
+  (Optional) Open it in Visual Studio Code
 
     code .
 
