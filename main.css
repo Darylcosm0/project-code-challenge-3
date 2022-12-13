@@ -1,26 +1,63 @@
 h1 {
     text-align: center;
     font-size: 15;
-    color: rgb(172, 9, 231);
+    color: rgb(79, 231, 9);
     font-style: tahoma;
-}
-
-body {
-    margin: 0;
-    font-family: "Lato", sans-serif;
-    background-color: #745fde;
-}
-
-.button {
-    color: #0e120d
-}
-
-.sidebar {
-    margin: 0;
-    padding: 0;
-    width: 300px;
-    background-color: #656065;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
+  }
+  body {
+      margin: 0;
+      font-family: "Lato", sans-serif;
+      background-color: #725fde;
+    }
+    .button{
+      color:#0d1210
+    }
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 300px;
+      background-color: #656065;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+    }
+    .sidebar a.active {
+      background-color: #aa04a2;
+      color: rgb(255, 255, 255);
+    }
+    .sidebar a:hover:not(.active) {
+      background-color: #555;
+      color: rgb(255, 255, 255);
+    }
+    div.film-content {
+      margin-left: 300px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Message Slackbot
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
