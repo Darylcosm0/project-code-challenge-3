@@ -1,30 +1,62 @@
 <html>
- <head>
-   <meta charset='UTF-8'/>
-   <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
-   <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
-   <title>Flatadango</title>
-   <link rel='stylesheet' href='./main.css'/>
- </head>
- <body>
-     <div class="sidebar" id ="sidebar">
-     </div>
-     <div class="film-content" id="film-content">
-     </div>
-     <div class="film-names" id="film-names">
-     </div>
-     </body>
-     <script src ="./script.js"></script>
- <!---
-     <body>
-     <main></main>
-   <div id='main'>
-     <h1></h1>
-     </div>
-     <div id = "movieDetails"></div>
-     <div id =movieNames></div>
-   </div>
-   <script src ="src/index.js"></script>
- </body>
- -->
- </html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>FLATDANGO</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <!-- Heading -->
+    <div class="heading">
+      <div class="item">
+        <h2 class="ui header">
+          <i class="orange ticket icon"></i>
+          <div class="content">FLATDANGO</div>
+          <div id="subtitle">MOVIE TICKETS</div>
+        </h2>
+      </div>
+    </div>
+    <div class="ui centered grid">
+      <div class="four wide column">
+        <div class="list-container">
+          <!-- list og movie to be appended here -->
+          <ul class="ui divided list" id="films">
+            <li class="film item"></li>
+          </ul>
+        </div>
+      </div>
+      <!-- image -->
+      <div class="four wide column">
+        <img
+          id="poster"
+          src="assets/placeholderImage.png"
+          alt="[MOVIE TITLE]"
+        />
+      </div>
+      <!-- movie details -->
+      <section id="infobox">
+        <div class="four wide column">
+          <div class="ui cards" id="showing">
+            <div class="card">
+              <div id="title" class="title"></div>
+              <div id="runtime" class="meta">[RUNTIME] minutes</div>
+              <div class="content">
+                <div class="description">
+                  <div id="film-info"></div>
+                  <span id="showtime" class="ui label">[SHOWTIME]</span>
+                  <span id="ticket-number">[--]</span> remaining tickets
+                </div>
+              </div>
+              <!-- Buying ticket -->
+              <div class="extra content">
+                <button id="buy-ticket" class="ui orange button">
+                  BUY TICKET
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

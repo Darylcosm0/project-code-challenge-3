@@ -18,7 +18,8 @@ A computer that runs on either of the following; (Windows 7+, Linux, Mac OS) nod
   - index.html
   - script.js
   - main.js
-  - db.json
+  - db.json && settings .json
+  
 # Instalation
 To use this repo on your machine requires some simple steps
 
@@ -69,6 +70,8 @@ Running the application is very straight forward. You can use the following step
 
 - click on the go live below the terminal to open your the code in browser.
 
+# link to live server
+https://darylcosm0.github.io/project-code-challenge-3/db.json
 ## Author
 - Daryl
 
