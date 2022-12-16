@@ -1,4 +1,4 @@
-let URL = 'https://darylcosm0.github.io/project-code-challenge-3/db.json' 
+let URL = 'https://project-code-challenge-3.vercel.app/db.json' 
  const listHolder = document.getElementById('films') 
  document.addEventListener('DOMContentLoaded', ()=>{ 
      document.getElementsByClassName('film item')[0].remove() 
